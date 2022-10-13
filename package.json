@@ -10,12 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/JuniFruit/Algorithm-Visualizer.git"
   },
-  
   "author": "JuniFruit",
   "license": "ISC",
   "keywords": [
     "algVisualizer",
     "heroku"
-  ]
-  
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
 }
