@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorirthm Visualizer</title>
+    <script src="./src/main/main.js" defer type="module"></script>
+    <script src="./src/main/dropdown.js" defer type="module"></script>
+    <script src="./src/main/tutorial.js" defer type="module"></script>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <div class="nav-container">
+                <a class="nav-logo" href="#">
+                    <span>Algorithm</span>
+                    <span>Visualizer</span>
+                </a>
+                <div class="nav-buttons-container">
+
+                    <div class="algorithm-menu menu">
+                        <button class="nav-button">Algorithms</button>
+                        <div class="dropdown-menu">
+                            <button class="alg">Depth First</button>
+                            <button class="alg">Breadth First</button>
+                            <button class="alg">A* star</button>
+                            <button class="alg">Dijkstra's algorithm</button>
+                        </div>
+                    </div>
+                    <div class="maze-menu menu">
+                        <button class="nav-button">Mazes</button>
+                        <div class="dropdown-menu">
+                            <button class="maze">Basic Maze</button>
+                            <button class="maze">Stair Pattern</button>
+                            <button class="maze">Recursive Non Traversable</button>
+                        </div>
+                    </div>
+                    <div class="start-button">
+                        <button class="startButton">Start</button>
+                    </div>
+                    <div class="clear-button">
+                        <button class="nav-button clearButton">Clear Table</button>
+                    </div>
+                    <div class="speed-menu menu">
+                        <button class="nav-button" id="speedChange">Speed: Fast</button>
+                        <div class="dropdown-menu">
+                            <button class="slow speed">Slow</button>
+                            <button class="average speed">Average</button>
+                            <button class="fast speed">Fast</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <section class="tutorial">
+        <div class="tutorial-box">
+
+            <div class="tutorial-wrapper tutorial-active">
+                <div class="page-counter">
+                    <span>1/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Welcome to Algorithm Visualizer</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>This small tutorial will help you to familiarize yourself with necessary features</h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>If you don't need a tutorial, then just hit the Skip button and enjoy the Visualizer!</p>
+
+                </div>
+                <img />
+            </div>
+            <div class="tutorial-wrapper">
+                <div class="page-counter">
+                    <span>2/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Setting start and target nodes</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>An algorithm will work only if there is a start and an end</h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>To set the start node, double-click on any cell. To set a target node, left click on any cell.
+                    </p>
+
+                </div>
+                <div class="tutorial-images">
+                    <img src="./assets/startTutorial.png" alt="start node">
+                    <img src="./assets/targetTutorial.png" alt="target node" />
+                </div>
+
+            </div>
+            <div class="tutorial-wrapper">
+
+                <div class="page-counter">
+                    <span>3/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Setting and clearing walls</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>You can manually set obstacles for an algorithm</h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>To set a wall - left click and drag your mouse across the board. If you want to clear a wall,
+                        right
+                        click and drag.</p>
+
+                </div>
+                <div class="tutorial-images">
+                    <img src="./assets/settingWalls.gif" alt="setting walls gif">
+                  
+                </div>
+            </div>
+            <div class="tutorial-wrapper">
+
+                <div class="page-counter">
+                    <span>4/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Choosing an algorithm</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>You can choose different search algorithm from the menu</h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>This project features: Depth first, breadth first, A* star and Dijkstra's algorithm. Every
+                        algorithm
+                        has a small description at the top of the page.</p>
+
+                </div>
+                <div class="tutorial-images">
+                    <img src="./assets/algorithms.png" alt="choose an algorithm">
+
+                </div>
+            </div>
+            <div class="tutorial-wrapper">
+                <div class="page-counter">
+                    <span>5/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Choosing a maze</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>If don't want to set obstacles yourself, you can choose one of the maze patterns</h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>Choose a maze pattern and see the algorithm in action! There is also a non-traversable maze,
+                        which
+                        made for demonstrational purposes only of how you can generate a maze using recursive
+                        division
+                        method. </p>
+
+                </div>
+                <div class="tutorial-images">
+                    <img src="./assets/mazes.png" alt="choose a maze">
+
+                </div>
+            </div>
+            <div class="tutorial-wrapper">
+                <div class="page-counter">
+                    <span>6/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Project Legend</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>If you're feeling lost, you can reference the legend bar which features all the necessary
+                        things.
+                    </h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>Legend bar is always at the top of the page. It also provides a short description of an
+                        algorithm
+                        you've chosen.</p>
+
+                </div>                
+            </div>
+            <div class="tutorial-wrapper">
+                <div class="page-counter">
+                    <span>7/7</span>
+                </div>
+                <div class="tutorial-header">
+                    <h2>Start Visualizer</h2>
+                </div>
+                <div class="tutorial-subheader">
+                    <h3>Once everything is ready, you can see the algorithm in action</h3>
+                </div>
+                <div class="tutorial-description">
+                    <p>Just hit the start button and enjoy the visuals!</p>
+
+                </div>
+                <div class="tutorial-images">
+                    <img src="./assets/startButton.png" alt="start button screenshot">
+
+                </div>
+            </div>
+
+
+            <div class="tutorial-buttons">
+                <button class="startButton skip">Skip</button>
+                <div class="button-navigate">
+                    <button class="startButton prev" style="opacity: 0; pointer-events: none">Previous</button>
+                    <button class="startButton next">Next</button>
+                </div>
+            </div>
+        </div>
+       
+
+    </section>
+    <section class="description">
+        <div class="legend">
+            <div class="legend-container">
+                <div class="target">
+                    <div class="legend-square"> </div>
+                    <span>Target</span>
+                </div>
+                <div class="start">
+                    <div class="legend-square"> </div>
+                    <span>Start</span>
+                </div>
+                <div class="path">
+                    <div class="legend-square"> </div>
+                    <span>Path</span>
+                </div>
+                <div class="wall">
+                    <div class="legend-square"> </div>
+                    <span>Wall</span>
+                </div>
+                <div class="visited">
+                    <div class="legend-square"> </div>
+                    <span>Visited nodes</span>
+                </div>
+                <div class="RMB">
+                    <div class="legend-square"> </div>
+                    <span>To clear a node</span>
+                </div>
+                <div class="LMB">
+                    <div class="legend-square"> </div>
+                    <span>To set a target or a wall</span>
+                </div>
+                <div class="double">
+                    <div class="legend-square"> </div>
+                    <span>To set a starting node</span>
+                </div>
+            </div>
+        </div>
+        <div class="description-container">
+            <p class="description-content">Pick an algorithm!</p>
+        </div>
+
+    </section>
+    <section class="canvas">
+        <div class="board">
+            <table class="table-container">
+                <tbody class="table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</body>
+
+</html>
