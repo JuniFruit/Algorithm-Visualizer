@@ -17,7 +17,7 @@ Project also features maze generators if user doesn't want to set up obstacles t
 
 The project has a tutorial which can guide a user through necessary features on the page. Tutorial can be skipped if a user wants to enjoy visualization right away.
 
-To play with the algorithms you can [here](https://algvisualizer.herokuapp.com/home.html)
+To play with the algorithms you can [here](https://algorithm-visualizer.onrender.com/)
 
 ![image](./alg-visualizer1.0/assets/showcase.png)
 ![image](./alg-visualizer1.0/assets/showcase2.png)

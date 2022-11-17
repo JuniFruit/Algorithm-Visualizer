@@ -1,0 +1,27 @@
+{
+  "name": "algorithmvisualizer",
+  "version": "1.0.0",
+  "description": "Project shows the working principles of several graph search algorithms and lets a user to play with it as well as create different obstacles for an algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "build": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuniFruit/Algorithm-Visualizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuniFruit/Algorithm-Visualizer/issues"
+  },
+  "homepage": "https://github.com/JuniFruit/Algorithm-Visualizer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
