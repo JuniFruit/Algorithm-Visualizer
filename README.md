@@ -19,8 +19,8 @@ The project has a tutorial which can guide a user through necessary features on 
 
 To play with the algorithms you can [here](https://algorithm-visualizer.onrender.com/)
 
-![image](./alg-visualizer1.0/assets/showcase.png)
-![image](./alg-visualizer1.0/assets/showcase2.png)
+![image](./alg-visualizer1.0/client/assets/showcase.png)
+![image](./alg-visualizer1.0/client/assets/showcase2.png)
 
 ### Note!
 
