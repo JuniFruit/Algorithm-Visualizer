@@ -19,5 +19,14 @@ The project has a tutorial which can guide a user through necessary features on 
 
 To play with the algorithms you can [here](https://algorithm-visualizer.onrender.com/)
 
+<<<<<<< HEAD
 ![image](./alg-visualizer1.0/assets/showcase.png)
 ![image](./alg-visualizer1.0/assets/showcase2.png)
+=======
+![image](./alg-visualizer1.0/client/assets/showcase.png)
+![image](./alg-visualizer1.0/client/assets/showcase2.png)
+
+### Note!
+
+<i>App is deployed on heroku and used for educational purposes only.</i>
+>>>>>>> 9753bec1f4eda37e928439c7ef545eb1b790e820
