@@ -1,4 +1,4 @@
-# Algorithm Visualizer
+# [Algorithm Visualizer](https://algorithm-visualizer.onrender.com/)
 
 ## Idea
 
@@ -8,10 +8,10 @@ Project also features maze generators if user doesn't want to set up obstacles t
 
 ## Algorithms featured
 
-* Depth first
-* Breadth first 
-* A* star 
-* Dijkstra's algorithm
+- Depth first
+- Breadth first
+- A\* star
+- Dijkstra's algorithm
 
 ## Description
 
@@ -21,7 +21,3 @@ To play with the algorithms you can [here](https://algorithm-visualizer.onrender
 
 ![image](./alg-visualizer1.0/assets/showcase.png)
 ![image](./alg-visualizer1.0/assets/showcase2.png)
-
-### Note!
-
-<i>App is deployed on heroku and used for educational purposes only.</i>
